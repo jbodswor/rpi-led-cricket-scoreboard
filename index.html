@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple Scoreboard</title>
+  <link rel="stylesheet" href="css/scoreboard.css">
+  <link rel="icon" href="favicon-32x32.png">
+</head>
+
+<body>
+  <div class="page-div">
+    <h1>Cricket Scoreboard</h1>
+    <p>This is a simple cricket scoreboard for the LED screen</p>
+    <form class="scoreboard" action="index.html" method="post">
+      <table>
+        <tr>
+          <th>Team</th>
+          <th class="wickets">Wickets</th>
+          <th class="runs">Runs</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" name="Home Team" value="Home">
+          </td>
+          <td class="wickets">
+            <input class="wickets" type="number" name="Wickets" value="0" min="0" max="10">
+          </td>
+          <td class="runs">
+            <input class="runs" type="number" name="Runs" value="0" min="0" max="999">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" name="Away Team" value="Away">
+          </td>
+          <td class="wickets">
+            <input class="wickets" type="number" name="Wickets" value="0" min="0" max="10">
+          </td>
+          <td class="runs">
+            <input class="runs" type="number" name="Runs" value="0" min="0" max="999">
+          </td>
+      </table>
+    </form>
+  </div>
+</body>
+
+
+</html>

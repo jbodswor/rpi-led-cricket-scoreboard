@@ -1,0 +1,47 @@
+/****************************************Element Styles****************************************/
+body {
+  background-color: #293462;
+  color: #dddddd;
+  margin: 0;
+  font-family: system-ui;
+}
+
+div {
+  /* background-color: #304880; */
+  margin: 10px;
+}
+
+h1 {
+  color: #f7be16;
+  margin: 0;
+  font-size: 3em;
+}
+
+th {
+  text-align: left;
+  color: white;
+  font-size: 5em;
+}
+
+td {
+
+}
+input {
+  background-color: #293462;
+  color: white;
+  border: none;
+  font-size: 5em;
+}
+
+/****************************************Class Styles****************************************/
+.wickets {
+  width: 4em;
+  text-align: right;
+}
+
+.runs {
+  width: 5em;
+  text-align: right;
+}
+
+/****************************************ID Styles****************************************/
